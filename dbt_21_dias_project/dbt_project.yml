@@ -1,0 +1,8 @@
+name: dbt_21_dias
+version: '1.0'
+profile: Lucas_dbt
+source-paths: ["models"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
